@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schollars",
+  "info": {
+    "singularName": "schollar",
+    "pluralName": "schollars",
+    "displayName": "Schollar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}
